@@ -72,11 +72,16 @@ Ensure you have Python installed and install the required dependencies using:
 ```bash  
 pip install matplotlib tkinter  
 ```
+### Clone the repository:
+```sh
+git clone https://github.com/EmaanBashir/Restaurant-Bot-Optimization.git
+cd Restaurant-Bot-Optimization/Code
+```
 
 ### 🏨 Running the Restaurant Simulation  
 To launch the restaurant environment with bots and customer interactions, run:  
 ```bash  
-python Code/restaurantLayout.py  
+python restaurantLayout.py  
 ```
 
 ### 📊 Running Experiments  
@@ -85,13 +90,13 @@ To analyze customer waiting times based on different parameters, run the respect
 #### 🤖 Number of Robots vs Waiting Time  
 Run the following command to analyze the effect of the number of robots on waiting time:  
 ```bash  
-python Code/runAllExperiments\(NoOfRobots\ vs\ WaitingTime\).py  
+python runAllExperiments(NoOfRobotsvsWaitingTime).py  
 ```
 
 #### 🏛️ Customer Number vs Waiting Time  
 Run the following command to analyze the effect of customer numbers on waiting time:  
 ```bash  
-python Code/runAllExperiments\(CustomerNo\ vs\ WaitingTime\).py  
+python runAllExperiments(CustomerNovsWaitingTime).py  
 ```
 
 ## Presentation Link
