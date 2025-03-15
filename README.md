@@ -1,6 +1,7 @@
 # 🍽️ Restaurant Bot Simulation: Optimizing Food Delivery with Pathfinding Algorithms
 
 ![restaurant_simulation](https://github.com/user-attachments/assets/58bddfc3-0973-41b1-a4da-a28bfe0cf226)
+https://github.com/user-attachments/assets/ef9d6e69-be68-4833-82a6-f4d744199928
 
 ## 📌 Project Overview  
 This project simulates a restaurant environment to analyze the impact of the number of autonomous delivery bots and different pathfinding algorithms on customer waiting times. The goal is to determine the optimal number of robots and the most efficient pathfinding algorithm for minimizing delivery time in a restaurant setting.  
@@ -17,15 +18,15 @@ This project simulates a restaurant environment to analyze the impact of the num
 ## 🏗 System Design  
 The restaurant environment consists of passive objects (tables, kitchen, doors, charging station) and agents (customers, robots, and a manager).  
 
-### 📌 Restaurant Layout  
-![Restaurant Layout](images/restaurant_layout.png)  
+### 📌 Restaurant Layout
+![restaurant_layout](https://github.com/user-attachments/assets/56cbac4b-0b05-40b5-b1ab-7f02dbdd4f97)
 
 - **🤖 Robots**: Deliver food from the kitchen to customer tables using different pathfinding algorithms.  
 - **👥 Customers**: Arrive in groups, occupy tables, place orders, and leave after eating.  
 - **👨‍💼 Manager**: Assigns food delivery tasks to available robots based on efficiency criteria.  
 
 ### 🏃‍♂️ Robot States  
-![Robot States](images/robot_states.png)  
+![robot_states](https://github.com/user-attachments/assets/1bf40797-4323-4e57-9233-bdcb91f5c69d)
 
 ## 🛤 Pathfinding Algorithms Implemented  
 1. **🔍 Depth First Search (DFS)**: Explores paths exhaustively, often resulting in long and inefficient routes.  
@@ -34,7 +35,7 @@ The restaurant environment consists of passive objects (tables, kitchen, doors, 
 4. **⭐ A* Algorithm**: Combines cost and heuristic measures for the most efficient pathfinding, making it the best-performing algorithm in this study.  
 
 ### 📍 Path Comparisons  
-![Pathfinding Algorithms](images/pathfinding_algorithms.png)  
+![pathfinding_algorithms](https://github.com/user-attachments/assets/158f5f21-b9b4-480e-b66d-1b731255afb9)
 
 ## 📊 Experiment Setup  
 - The simulation runs for **300 seconds** per test.  
@@ -45,12 +46,12 @@ The restaurant environment consists of passive objects (tables, kitchen, doors, 
 ## 📈 Experiment Results  
 
 ### 📉 Effect of the Number of Robots on Waiting Time  
-![Waiting Time vs Robots](images/waiting_time_vs_robots.png)  
+![waiting_time_vs_robots](https://github.com/user-attachments/assets/e1eeb3ac-7aad-4c24-8c7c-99a34d03d69e)
 
 - **Increasing the number of robots reduces customer waiting time** but reaches a saturation point where additional bots provide diminishing returns.  
 
 ### 📉 Effect of Pathfinding Algorithm on Waiting Time  
-![Waiting Time vs Algorithm](images/waiting_time_vs_algorithm.png)  
+![waiting_time_vs_algorithm](https://github.com/user-attachments/assets/57de2fbc-5853-4711-9937-fe03f708d0c3)
 
 - **A* Algorithm performed the best**, minimizing customer waiting times compared to other algorithms.  
 - **Depth First Search was the least efficient**, leading to significantly longer delivery times.  
