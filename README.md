@@ -1,7 +1,6 @@
 # 🍽️ Restaurant Bot Simulation: Optimizing Food Delivery with Pathfinding Algorithms
 
-![Restaurant Simulation](images/restaurant_layout.png)
-![Restaurant Simulation](Demo.mp4)
+![restaurant_simulation](https://github.com/user-attachments/assets/58bddfc3-0973-41b1-a4da-a28bfe0cf226)
 
 ## 📌 Project Overview  
 This project simulates a restaurant environment to analyze the impact of the number of autonomous delivery bots and different pathfinding algorithms on customer waiting times. The goal is to determine the optimal number of robots and the most efficient pathfinding algorithm for minimizing delivery time in a restaurant setting.  
