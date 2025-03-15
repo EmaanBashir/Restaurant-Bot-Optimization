@@ -65,5 +65,37 @@ The restaurant environment consists of passive objects (tables, kitchen, doors, 
 - Exploring additional **pathfinding algorithms** for further optimization.  
 - Adapting the system for **real-world restaurant layouts** with dynamic obstacles.
 
-  ## Presentation Link
-  https://www.canva.com/design/DAGFHJKYZ_M/Qs39OW4gnlswmK5htBSp6g/edit?utm_content=DAGFHJKYZ_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+## 🚀 How to Run the Code  
+
+### 📦 Requirements  
+Ensure you have Python installed and install the required dependencies using:  
+```bash  
+pip install matplotlib tkinter  
+```
+
+### 🏨 Running the Restaurant Simulation  
+To launch the restaurant environment with bots and customer interactions, run:  
+```bash  
+python Code/restaurantLayout.py  
+```
+
+### 📊 Running Experiments  
+To analyze customer waiting times based on different parameters, run the respective scripts:  
+
+#### 🤖 Number of Robots vs Waiting Time  
+Run the following command to analyze the effect of the number of robots on waiting time:  
+```bash  
+python Code/runAllExperiments\(NoOfRobots\ vs\ WaitingTime\).py  
+```
+
+#### 🏛️ Customer Number vs Waiting Time  
+Run the following command to analyze the effect of customer numbers on waiting time:  
+```bash  
+python Code/runAllExperiments\(CustomerNo\ vs\ WaitingTime\).py  
+```
+
+## Presentation Link
+https://www.canva.com/design/DAGFHJKYZ_M/Qs39OW4gnlswmK5htBSp6g/edit?utm_content=DAGFHJKYZ_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+--
+For further details check the full Report.pdf included in the repository
