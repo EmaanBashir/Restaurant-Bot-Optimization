@@ -1,6 +1,5 @@
 # 🍽️ Restaurant Bot Simulation: Optimizing Food Delivery with Pathfinding Algorithms
 
-![restaurant_simulation](https://github.com/user-attachments/assets/d4ae2912-c397-4063-bab2-3dfadbe3f0b8)
 ![restaurant_simulation](https://github.com/user-attachments/assets/7f3adc06-e339-4388-9e0d-f4abf7c27926)
 
 ## 📌 Project Overview  
