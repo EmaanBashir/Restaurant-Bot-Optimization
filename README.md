@@ -10,7 +10,7 @@ This project simulates a restaurant environment to analyze the impact of the num
 2. [Technologies Used](#-technologies-used)
 3. [System Design](#-system-design)
    - [Restaurant Layout](#-restaurant-layout)
-   - [Robot States](# robot-states)
+   - [Robot States](#%EF%B8%8F-robot-states)
 4. [Pathfinding Algorithms Implemented](#-pathfinding-algorithms-implemented)
 5. [Experiment Setup](#-experiment-setup)
 6. [Experiment Results](#-experiment-results)
