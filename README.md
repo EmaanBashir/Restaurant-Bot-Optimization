@@ -5,6 +5,22 @@
 ## 📌 Project Overview  
 This project simulates a restaurant environment to analyze the impact of the number of autonomous delivery bots and different pathfinding algorithms on customer waiting times. The goal is to determine the optimal number of robots and the most efficient pathfinding algorithm for minimizing delivery time in a restaurant setting.  
 
+## 📌 Table of Contents
+1. [Research Question](#-research-question)
+2. [Technologies Used](#-technologies-used)
+3. [System Design](#-system-design)
+   - [Restaurant Layout](#-restaurant-layout)
+   - [Robot States](# robot-states)
+4. [Pathfinding Algorithms Implemented](#-pathfinding-algorithms-implemented)
+5. [Experiment Setup](#-experiment-setup)
+6. [Experiment Results](#-experiment-results)
+   - [Effect of the Number of Robots on Waiting Time](#-effect-of-the-number-of-robots-on-waiting-time)
+   - [Effect of Pathfinding Algorithm on Waiting Time](#-effect-of-pathfinding-algorithm-on-waiting-time)
+7. [Key Findings](#-key-findings)
+8. [Future Work](#-future-work)
+9. [How to Run the Code](#-how-to-run-the-code)
+10. [Presentation Link](#presentation-link)
+
 ## ❓ Research Question  
 **How do the number of bots and the choice of pathfinding algorithm impact the average customer waiting time in a restaurant environment?**  
 
@@ -88,19 +104,18 @@ python restaurantLayout.py
 To analyze customer waiting times based on different parameters, run the respective scripts:  
 
 #### 🤖 Number of Robots vs Waiting Time  
-Run the following command to analyze the effect of the number of robots on waiting time:  
 ```bash  
 python runAllExperiments(NoOfRobotsvsWaitingTime).py  
 ```
 
 #### 🏛️ Customer Number vs Waiting Time  
-Run the following command to analyze the effect of customer numbers on waiting time:  
 ```bash  
 python runAllExperiments(CustomerNovsWaitingTime).py  
 ```
 
-## Presentation Link
-https://www.canva.com/design/DAGFHJKYZ_M/Qs39OW4gnlswmK5htBSp6g/edit?utm_content=DAGFHJKYZ_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+## Presentation Link  
+[View Presentation](https://www.canva.com/design/DAGFHJKYZ_M/Qs39OW4gnlswmK5htBSp6g/edit?utm_content=DAGFHJKYZ_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
----
-For further details check the full Report.pdf included in the repository
+---  
+For further details check the full **Report.pdf** included in the repository.
+
